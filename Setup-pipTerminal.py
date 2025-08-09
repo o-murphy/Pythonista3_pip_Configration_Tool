@@ -43,9 +43,7 @@ def setting_pip():
 
 def installation_pipTerminal():
     with open(pipTerminal_DST, "w") as terminal:
-        terminal.write(
-            requests.get(pipTerminal_URL).content.decode(errors="ignore")
-        )
+        terminal.write(requests.get(pipTerminal_URL).content.decode(errors="ignore"))
 
 
 def installation_realpip():
