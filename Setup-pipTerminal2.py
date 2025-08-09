@@ -55,7 +55,7 @@ def pin_shortcut():
             "scriptName": "pipTerminal.py",
             "title": "pipTerminal",
             "iconColor": "000000",
-            "iconName": "Primaries_chevronRight",
+            "iconName": "Primaries_ChevronRight",
         }
 
         script_path = pipTerminal_action["scriptName"]
